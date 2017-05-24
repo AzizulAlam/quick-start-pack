@@ -1,0 +1,74 @@
+
+/*font-family: 'Karla', sans-serif; */
+/*font-family: 'Roboto', sans-serif; */
+/*font-family: 'Exo', sans-serif; */
+/*font-family: 'Exo 2', sans-serif; */
+/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Roboto Slab', serif;*/
+
+
+/*Common CSS*/
+
+@font-face {
+  font-family: 'codeLight';
+  src: url('assets/fonts/codeLight/codeLight.eot');
+  src: url('assets/fonts/codeLight/codeLight.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('assets/fonts/codeLight/codeLight.woff2') format('woff2'), url('assets/fonts/codeLight/codeLight.woff') format('woff'), url('assets/fonts/codeLight/codeLight.ttf') format('truetype'), url('assets/fonts/codeLight/codeLight.svg#codeLight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'codeBold';
+  src: url('assets/fonts/codeBold/codeBold.eot');
+  src: url('assets/fonts/codeBold/codeBold.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('assets/fonts/codeBold/codeBold.woff2') format('woff2'), url('assets/fonts/codeBold/codeBold.woff') format('woff'), url('assets/fonts/codeBold/codeBold.ttf') format('truetype'), url('assets/fonts/codeBold/codeBold.svg#codeBold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+a:hover, a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;   /* top:0, left-right:0; bottom:15px; */
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+body {
+    font-family: 'Karla', sans-serif;
+    font-size: 15px;
+    line-height: 1.7;
+    background-image: url(assets/fonts/)
+}
+
+/*  Style for Stick Div */
+.stick {
+    position:fixed;
+    top:0px;
+    z-index: 9999999;
+    background: #46423F;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
